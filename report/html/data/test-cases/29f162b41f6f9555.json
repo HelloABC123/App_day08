@@ -1,0 +1,91 @@
+{
+  "uid" : "29f162b41f6f9555",
+  "name" : "Test01.test_01",
+  "fullName" : "test_01.Test01.test_01",
+  "historyId" : "6e22c5b9b8a0b45c4a1908126c1465d5",
+  "time" : {
+    "start" : 1571734151415,
+    "stop" : 1571734151418,
+    "duration" : 3
+  },
+  "description" : "\nAllure报告\n    1、安装 pip install pytest-allure-adaptor\n    2、pytest.ini配置文件 addopts = -s --alluredir report\n    3、生成报告 为 xml 文件\n    4、allure-2.6.0 文件 路径配置环境变量path\n    5、对生成的xml文件 更改为html\n    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)\n",
+  "descriptionHtml" : "<p>Allure报告\n1、安装 pip install pytest-allure-adaptor\n2、pytest.ini配置文件 addopts = -s --alluredir report\n3、生成报告 为 xml 文件\n4、allure-2.6.0 文件 路径配置环境变量path\n5、对生成的xml文件 更改为html\n6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行登录！",
+      "time" : {
+        "start" : 1571734151418,
+        "stop" : 1571734151418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a859a4f733b1a4ea",
+        "name" : "失败原因",
+        "source" : "a859a4f733b1a4ea.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7A6DOSIB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13036-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test_01"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29f162b41f6f9555.json",
+  "parameterValues" : [ ]
+}

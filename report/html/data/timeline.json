@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-7A6DOSIB",
+    "children" : [ {
+      "name" : "13036-MainThread",
+      "children" : [ {
+        "name" : "Test01.test_03",
+        "uid" : "d1331f2634f91ee9",
+        "parentUid" : "61784a67cee21748a80ee218b3ff04ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571734151454,
+          "stop" : 1571734151455,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01.test_01",
+        "uid" : "29f162b41f6f9555",
+        "parentUid" : "61784a67cee21748a80ee218b3ff04ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571734151415,
+          "stop" : 1571734151418,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01.test_02",
+        "uid" : "fe7f7ba3f0fde99f",
+        "parentUid" : "61784a67cee21748a80ee218b3ff04ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571734151420,
+          "stop" : 1571734151453,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61784a67cee21748a80ee218b3ff04ac"
+    } ],
+    "uid" : "ba102a5639711e1c21b84dfd3ff69063"
+  } ]
+}

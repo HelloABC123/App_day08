@@ -1,0 +1,28 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_01.Test01.test_03","1","
+Allure报告
+    1、安装 pip install pytest-allure-adaptor
+    2、pytest.ini配置文件 addopts = -s --alluredir report
+    3、生成报告 为 xml 文件
+    4、allure-2.6.0 文件 路径配置环境变量path
+    5、对生成的xml文件 更改为html
+    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)
+"
+"passed","test_01.Test01.test_01","3","
+Allure报告
+    1、安装 pip install pytest-allure-adaptor
+    2、pytest.ini配置文件 addopts = -s --alluredir report
+    3、生成报告 为 xml 文件
+    4、allure-2.6.0 文件 路径配置环境变量path
+    5、对生成的xml文件 更改为html
+    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)
+"
+"failed","test_01.Test01.test_02","33","
+Allure报告
+    1、安装 pip install pytest-allure-adaptor
+    2、pytest.ini配置文件 addopts = -s --alluredir report
+    3、生成报告 为 xml 文件
+    4、allure-2.6.0 文件 路径配置环境变量path
+    5、对生成的xml文件 更改为html
+    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)
+"

@@ -1,0 +1,60 @@
+{
+  "uid" : "d1331f2634f91ee9",
+  "name" : "Test01.test_03",
+  "fullName" : "test_01.Test01.test_03",
+  "historyId" : "c71cbfc4961395c5bf9bb8fd8f9de7ca",
+  "time" : {
+    "start" : 1571734151454,
+    "stop" : 1571734151455,
+    "duration" : 1
+  },
+  "description" : "\nAllure报告\n    1、安装 pip install pytest-allure-adaptor\n    2、pytest.ini配置文件 addopts = -s --alluredir report\n    3、生成报告 为 xml 文件\n    4、allure-2.6.0 文件 路径配置环境变量path\n    5、对生成的xml文件 更改为html\n    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)\n",
+  "descriptionHtml" : "<p>Allure报告\n1、安装 pip install pytest-allure-adaptor\n2、pytest.ini配置文件 addopts = -s --alluredir report\n3、生成报告 为 xml 文件\n4、allure-2.6.0 文件 路径配置环境变量path\n5、对生成的xml文件 更改为html\n6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7A6DOSIB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13036-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test_03"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1331f2634f91ee9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "fe7f7ba3f0fde99f",
+  "name" : "Test01.test_02",
+  "fullName" : "test_01.Test01.test_02",
+  "historyId" : "120efa6ce10450947b7d4d8e598c389e",
+  "time" : {
+    "start" : 1571734151420,
+    "stop" : 1571734151453,
+    "duration" : 33
+  },
+  "description" : "\nAllure报告\n    1、安装 pip install pytest-allure-adaptor\n    2、pytest.ini配置文件 addopts = -s --alluredir report\n    3、生成报告 为 xml 文件\n    4、allure-2.6.0 文件 路径配置环境变量path\n    5、对生成的xml文件 更改为html\n    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)\n",
+  "descriptionHtml" : "<p>Allure报告\n1、安装 pip install pytest-allure-adaptor\n2、pytest.ini配置文件 addopts = -s --alluredir report\n3、生成报告 为 xml 文件\n4、allure-2.6.0 文件 路径配置环境变量path\n5、对生成的xml文件 更改为html\n6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_01.Test01 object at 0x0437B0B0>\n\n    def test_02(self):\n>       assert 0\nE       assert 0\n\nscripts\\test_01.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7A6DOSIB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13036-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test_02"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe7f7ba3f0fde99f.json",
+  "parameterValues" : [ ]
+}

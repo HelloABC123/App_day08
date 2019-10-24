@@ -1,0 +1,93 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571751670097" stop="1571751670191">
+  <description>
+Allure报告
+    1、安装 pip install pytest-allure-adaptor
+    2、pytest.ini配置文件 addopts = -s --alluredir report
+    3、生成报告 为 xml 文件
+    4、allure-2.6.0 文件 路径配置环境变量path
+    5、对生成的xml文件 更改为html
+    6、Terminal 窗口运行  allure generate report/ -o report/html --clean (清空原有报告，重新生成报告)
+
+Allure报告增强
+1、添加步骤
+    语法：allure.step(title = "原因")
+2、添加描述
+    语法: allure.attach("描述","原因")
+    注意：1）只能修饰函数体
+         2）两个参数一个都不能少
+3、添加用例优先级
+    语法：@pytest.allure.severity(pytest.allure.severity_level.MINOR)
+
+</description>
+  <name>test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571751670097" status="passed" stop="1571751670106">
+      <name>Test01.test_01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="10040-MainThread"/>
+        <label name="host" value="LAPTOP-7A6DOSIB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571751670105" status="passed" stop="1571751670106">
+          <name>执行登录！</name>
+          <title>执行登录！</title>
+          <attachments>
+            <attachment source="087ff2d9-7926-4e30-a230-62e4ea0281b8-attachment.txt" title="失败原因" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571751670117" status="failed" stop="1571751670187">
+      <name>Test01.test_02</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_01.Test01 object at 0x0446C170&gt;
+
+    @allure.step(title = "执行退出登录！")
+    def test_02(self):
+        with open('./img/aa.jpeg','rb')as f:
+            allure.attach("失败原因",f.read(),allure.attach_type.PNG)
+&gt;       assert 0
+E       assert 0
+
+scripts\test_01.py:38: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="10040-MainThread"/>
+        <label name="host" value="LAPTOP-7A6DOSIB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571751670117" status="failed" stop="1571751670143">
+          <name>执行退出登录！</name>
+          <title>执行退出登录！</title>
+          <attachments>
+            <attachment source="1e77d420-5475-4201-94b2-bce461c954a7-attachment.png" title="失败原因" type="image/png"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571751670190" status="passed" stop="1571751670191">
+      <name>Test01.test_03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="10040-MainThread"/>
+        <label name="host" value="LAPTOP-7A6DOSIB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
