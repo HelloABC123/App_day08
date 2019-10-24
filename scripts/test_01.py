@@ -27,7 +27,7 @@ class Test01():
     @allure.step(title ="执行登录！")
     def test_01(self):
         allure.attach("失败原因","账户错误")
-        print("test01")
+        print("test02")
 
 
 
